@@ -1,0 +1,263 @@
+body {
+  color: rgb(0, 0, 0);
+  font-family: fonttt;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: fontt;
+  src: url("TheNextFont.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: fonttt;
+  src: url("Poppins-Light.ttf") format("opentype");
+}
+
+h5 {
+    font-family: fonttt;
+}
+
+
+
+nav img {
+  float: left;
+  height: 40px;
+  margin-top: 3px;
+}
+
+.navbar-nav {
+  margin: 0 15px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "fonttt";
+  font-weight: bold;
+  font-size: 25px;
+}
+
+h4 {
+  text-align: center;
+
+  font-family: "fonttt";
+}
+
+h5 {
+  text-align: center;
+}
+
+.tentang {
+  margin: 80px;
+}
+
+
+.centered {
+  font-size: 50px;
+  text-align: center;
+  font-family: fontt;
+ 
+}
+
+.bg1 {
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 5px 5px;
+}
+
+.bg2 {
+  padding: 20px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  margin: 10px;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.centered1 {
+  font-size: 20px;
+  text-align: center;
+  font-family: fontt;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+
+
+.container1 {
+flex-wrap: wrap;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.container1 .glass {
+  position: relative;
+  width: 150px;
+  height: 200px;
+  background: linear-gradient(#fff2, transparent);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  transition: 0.5s;
+  border-radius: 10px;
+  margin: 0 -45px;
+  backdrop-filter: blur(10px);
+  transform: rotate(calc(var(--r) * 1deg));
+}
+
+.container1:hover .glass {
+  transform: rotate(0deg);
+  margin: 0 10px;
+}
+
+.container1 .glass::before {
+  content: attr(data-text);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  color: #c5c5c5;
+}
+.container1 .glass svg {
+  font-size: 2.5em;
+  fill: #fff;
+}
+
+.bgfoot {
+  background-image: url("bgggg");
+  padding: 10px;
+}
+
+/*Aspirasi*/
+.container-aspirasi {
+  margin: 5rem auto;
+}
+.kotak-aspirasi {
+  margin: 30px auto;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  border-radius: 40px;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 10);
+}
+.form-border {
+  margin: 20px auto;
+}
+label {
+  font-weight: 600;
+}
+.column-input {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 5px;
+}
+.column-input button {
+  margin-top: 5px;
+}
+#my-form-status {
+  margin: 10px auto;
+  font-weight: 600;
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  align-items: center;
+  width: 180px;
+  height: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.bgfoott {
+  background-image: url("bgfoot.png");
+  height: 200px;
+  
+}
+
+.hahay {
+  background-color: #777;
+  border-radius: 10px;
+}
+
+.centeredfooter {
+  font-size: 10px;
+  text-align: center;
+  
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+.logofollowus {
+  margin: 10px;
+}
+.Buttons {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #00597c;
+  width: 6px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  animation: l37-1 0.75s infinite linear alternate, l37-2 1.5s infinite linear;
+}
+@keyframes l37-1 {
+  0%,
+  20% {
+    box-shadow: 30px 0 0 3px, 10px 0 0 3px, -10px 0 0 3px, -30px 0 0 3px;
+  }
+  60%,
+  100% {
+    box-shadow: 12px 0 0 3px, 14px 0 0 6px, -14px 0 0 6px, -12px 0 0 3px;
+  }
+}
+
+@keyframes l37-2 {
+  0%,
+  25% {
+    transform: rotate(0);
+  }
+  50%,
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
+
+
