@@ -4,6 +4,7 @@ body {
     width: wrap;
     max-width: 100%;
     overflow-x: hidden;
+  
 }
 
 * {
@@ -276,12 +277,12 @@ div.desc {
   text-align: center;
   background-color: transparent;
   cursor: pointer;
-  
-  border: 2px solid #252525;
+   position: relative;
+  border: 1px solid #252525;
   overflow: hidden;
   border-radius: 30px;
   color: #333;
-  transition: all 0.5s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .btn-txt {
@@ -306,7 +307,8 @@ div.desc {
 
 .button:hover {
   box-shadow: 1px 1px 200px #252525;
-  color: #00587a;
+  color: #3faeda;
+  border: 1px solid #3faeda;
   border: none;
 }
 
