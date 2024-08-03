@@ -1,10 +1,9 @@
 body {
   color: rgb(0, 0, 0);
   font-family: fonttt;
-    width: wrap;
-    max-width: 100%;
-    overflow-x: hidden;
-  
+  width: wrap;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 * {
@@ -22,10 +21,8 @@ body {
 }
 
 h5 {
-    font-family: fonttt;
+  font-family: fonttt;
 }
-
-
 
 nav img {
   float: left;
@@ -58,12 +55,10 @@ h5 {
   margin: 80px;
 }
 
-
 .centered {
   font-size: 50px;
   text-align: center;
   font-family: fontt;
- 
 }
 
 .bg1 {
@@ -91,7 +86,6 @@ h5 {
 .centered2 {
   font-size: 20px;
   text-align: center;
- 
 }
 
 .center {
@@ -101,16 +95,12 @@ h5 {
   width: 40%;
 }
 
-
-
 .container1 {
-flex-wrap: wrap;
+  flex-wrap: wrap;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  
-
 }
 
 .container1 .glass {
@@ -154,8 +144,9 @@ flex-wrap: wrap;
 }
 
 .bgfoot {
-  background-image: url("bgggg");
-  padding: 10px;
+  background-image: url("backgroundfoot.png");
+  height: 600px;
+  background-position: center;
 }
 
 /*Aspirasi*/
@@ -192,7 +183,6 @@ label {
   font-weight: 600;
 }
 
-
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -216,13 +206,6 @@ div.desc {
   text-align: center;
 }
 
-
-.bgfoott {
-  background-image: url("bgfoot.png");
-  height: 200px;
-  
-}
-
 .hahay {
   background-color: #777;
   border-radius: 10px;
@@ -231,7 +214,6 @@ div.desc {
 .centeredfooter {
   font-size: 10px;
   text-align: center;
-  
   text-shadow: 3px 3px 3px #ababab;
 }
 
@@ -270,14 +252,13 @@ div.desc {
   }
 }
 
-
 .button {
   height: 40px;
   width: 300px;
   text-align: center;
   background-color: transparent;
   cursor: pointer;
-   position: relative;
+  position: relative;
   border: 1px solid #252525;
   overflow: hidden;
   border-radius: 30px;
